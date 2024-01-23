@@ -1,6 +1,8 @@
 # PoeticCritque
 
 Review your haiku or generate a haiku using conversational AI.
+<img width="700" alt="Screenshot 2024-01-22 at 10 44 29 PM" src="https://github.com/pallav100/PoeticCritique/assets/25646444/372a355b-e787-4eee-a6d3-8deacf18789a">
+
 
 ## Architecural and Design decisions
 
