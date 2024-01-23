@@ -9,3 +9,4 @@ export const promptTableSchema: SchemaObject = {
 
 /*** In future replace this with an ORM like Prisma
  *  to better manage schema and operations on database
+ * */

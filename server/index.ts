@@ -1,5 +1,5 @@
 import * as express from 'express';
-import modelRoutes from "./apiRoutes/modelRoutes";
+import haikuRoutes from "./apiRoutes/haikuRoutes";
 import promptRoutes from "./apiRoutes/promptRoutes";
 import {createDbConnection} from "./database/connection";
 import * as dotenv from "dotenv";
@@ -11,7 +11,7 @@ const app = express();
 const dbInstance = createDbConnection();
 app.use(cors())
 app.use(bodyParser.json());
-app.use('/haiku', modelRoutes);
+app.use('/haiku', haikuRoutes);
 app.use('/prompt', promptRoutes);
 
 

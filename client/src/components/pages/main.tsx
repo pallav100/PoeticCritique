@@ -30,6 +30,10 @@ const Main: React.FC = () => {
   
   /*** Send button click handler */
   const handleSendButtonClick = () => {
+    if(prompt.length > 500){
+      alert("Please enter only upto 500 characters long haiku for review");
+      return;
+    }
     setMsgs((prevmsgs) => {
       return [...prevmsgs, {
         text: prompt == "" ? "Generate a haiku for me" : prompt,
