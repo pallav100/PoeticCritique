@@ -13,12 +13,13 @@ Review your haiku or generate a haiku using conversational AI.
 
 ## Instructions to start the web-app 
 
-## How to start the backend server
+## How to start the backend server (use Node v18 +)
 
 To run the server, navigate to server/ directory
 
 1. Run ```npm install``` to install app dependencies.
-2. Run ```npm start``` to start the server
+2. Input your Open AI API key into .env
+3. Run ```npm start``` to start the server
 
 The express server should be running on port 8000
 
