@@ -15,7 +15,7 @@ Review your haiku or generate a haiku using conversational AI.
 
 ## Instructions to start the web-app 
 
-## How to start the backend server (use Node v18 +)
+### How to start the backend server (use Node v18 +)
 
 To run the server, navigate to the server/ directory
 
