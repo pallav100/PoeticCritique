@@ -10,7 +10,7 @@ Review your haiku or generate a haiku using conversational AI.
 2. __Database__ - SQLite, lightweight + data to be stored is simple (text, numbers, date) + use case is relational
 3. __Frontend__ - Client side made using React.js. React is used to make code more modular, reusable, and easy to extend.
 4. __Styling__ - Tailwind and material-UI icons are used to style the webpages. Provides classes that are responsive, eliminating the need for writing custom CSS.Quick to learn.
-5. __Large Language Model__ - OpenAI powered GPT model (v3.5) is used to review or generate haiku. It is chosen over other models like hugging face because of its easy-to-follow documentation and API integration is seemlees for Javascript environments. 
+5. __Large Language Model__ - OpenAI powered GPT model (v3.5) is used to review or generate haiku. It is chosen over other models like hugging face because of its easy-to-follow documentation and API integration is seamlees for Javascript environments. 
 
 
 ## Instructions to start the web-app 
